@@ -174,7 +174,7 @@ class BasketView {
   clearBasket() {
     this.basketContent.innerHTML = `
     <span class="basket__product-title">Корзина пуста. Добавьте элементы в корзину</span>`;
-    this.basket.clearBasket();
+    this.basket.clearBasketBll();
   };
 
   saveBasket() {

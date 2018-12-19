@@ -22,7 +22,7 @@ class BasketBll {
     };
   };
 
-  clearBasket() {
+  clearBasketBll() {
     this._apples = [];
     this._pears = [];
     this._oranges = [];
